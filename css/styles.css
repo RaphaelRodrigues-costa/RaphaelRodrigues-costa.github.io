@@ -11,6 +11,7 @@ body{
 
 a{
     color: #050458;
+    text-decoration: none;
 }
 
 .navigation{
@@ -60,6 +61,14 @@ a{
     color: #ffffff;
 }
 
+.profile_pic p{
+    
+    height: 650px;
+    width: 45%;
+    text-align: center;
+    margin-left: 210px;
+    
+}
 .profile_pic{
     
     height: 650px;
@@ -86,7 +95,7 @@ a{
 .profile_title h1{
     text-transform:uppercase;
     font-size: 58px;
-    margin-top:200px;
+    margin-top:150px;
     font-weight:400;
     line-height:54px;
     margin-left:-40px;
@@ -97,6 +106,16 @@ a{
     margin-top:-30px;
     margin-left:-37px;
     
+}
+.profile_title h3{
+    margin-right: 50px;
+    margin-left: -39px;
+    margin-top: -10px;
+}
+.profile_title p{
+    margin-right: 50px;
+    margin-left: -39px;
+    margin-top: -10px;
 }
 
 .profile_img-linck{
