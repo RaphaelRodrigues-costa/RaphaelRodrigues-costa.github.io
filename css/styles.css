@@ -114,7 +114,7 @@ a{
     margin-right: 50px;
     margin-left: -39px;
     margin-top: -10px;
-    color: #ffffff;
+    color:  #dddad7;
 }
 .profile_title h3{
     margin-right: 50px;
@@ -128,5 +128,6 @@ a{
     width: 45%;
     text-align: center;
     margin-left: 210px;
+    color:  #dddad7;
     
 }
