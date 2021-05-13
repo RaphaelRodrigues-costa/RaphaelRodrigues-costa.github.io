@@ -1,10 +1,22 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: #050458;
+}
+
 .navigation{
     background-color: #2b2b2b;
     color: #ffffff; 
     height: 50px;
-    width: 51%;
-    float: right;
-    
    
     
 }
@@ -15,8 +27,6 @@
     list-style: none;
     text-align: right;
     height: 50px;
-    
-    
     
 
  }
@@ -32,27 +42,167 @@
  
 }
 
- .sumario{
-    background-color: aquamarine;
-    height: 50px;
-    width: 49%;
-    float: left;
- }
- 
- .sumario ul{
-    margin-top: 0;
-    padding-left: 0;
-    list-style: none;
-    text-align: left;
-    height: 50px;
- }
-
-
- .sumario li{
+.content div{
     display: inline-block;
-    padding-left: 30px;
-    padding-right: 30px;
-    line-height: 50px;
+    
+}
+
+.content h1{
+     color: #ffffff;
+}
+
+.content span{
+    color: #f27609;
+    display:block;
+}
+
+.content h2{
+    color: #ffffff;
+}
+
+.profile_pic{
+    
+    height: 650px;
+    width: 40%;
+    text-align: center;
+    
+}
+.profile_pic img{
+    width: 300px;
+    border-radius:300px;
+    margin-top: 115px;
+    
+}
+
+.profile_title{
+    
+    vertical-align: top;
+    height: 650px;
+    width: 59%;
+    
+
+    
+}
+.profile_title h1{
+    text-transform:uppercase;
+    font-size: 58px;
+    margin-top:200px;
+    font-weight:400;
+    line-height:54px;
+    margin-left:-40px;
+}
+.profile_title h2{
+    font-size: 16px;
+    font-weight:100;
+    margin-top:-30px;
+    margin-left:-37px;
+    
+}
+
+.profile_img-linck{
+    width: 50px;
+    margin-right: 50px;
+    margin-left: -39px;
+    
+}
+
+.main{
+    font-weight: normal;
+    color: white;
+    padding: 80px 180px 80px 100px;
+}
+
+.main h1{
+    
+    color: white;
+        
+}
+
+.main h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    
+}
+
+.main h3{
+    font-size: 12px;
+    color: #f27609;
+    text-transform: uppercase;
+}
+
+.main p{
     font-size: 18px;
     font-weight: 100;
+    line-height: 24px;
+    text-align: justify;
+}
+.path{
+    list-style: none;
+    color: grey;
+    padding-left: 0;
+    font-weight: 100;
+}
+.path li{
+    display: inline-block;
+}
+.cv-pic{
+    width: 200px;
+    float: right;
+    border-radius: 30px;
+}
+.img-linck-contato{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.img-fundo{
+    height: 320px;
+    width: 320px;
+    background-size: contain;
+    background-color: #f27609;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+   
+    
+}
+
+.linck-sob-img{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+
+}
+
+.linck-sob-img:hover{
+    opacity: 0.80;
+}
+
+.img-text{
+ text-align: center;
+ text-transform: uppercase;
+ 
+
+}
+
+.img-text h1{
+margin-top: 0;
+text-transform: none;
+padding: 80px 180px 0px 100px;
+font-size: 16px;
+
+}
+
+.img-text h2{
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 0;
+    
+
+}
+
+.linck-img{
+    text-decoration: none;
 }
