@@ -110,3 +110,21 @@ a{
     
 }
 
+.profile_title p{
+    margin-right: 50px;
+    margin-left: -39px;
+    margin-top: -10px;
+}
+.profile_title h3{
+    margin-right: 50px;
+    margin-left: -39px;
+    margin-top: -10px;
+}
+.profile_pic p{
+    
+    height: 650px;
+    width: 45%;
+    text-align: center;
+    margin-left: 210px;
+    
+}
