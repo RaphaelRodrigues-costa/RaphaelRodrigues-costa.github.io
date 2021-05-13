@@ -194,34 +194,3 @@ a{
     opacity: 0;
 
 }
-
-.linck-sob-img:hover{
-    opacity: 0.80;
-}
-
-.img-text{
- text-align: center;
- text-transform: uppercase;
- 
-
-}
-
-.img-text h1{
-margin-top: 0;
-text-transform: none;
-padding: 80px 180px 0px 100px;
-font-size: 16px;
-
-}
-
-.img-text h2{
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-top: 0;
-    
-
-}
-
-.linck-img{
-    text-decoration: none;
-}
